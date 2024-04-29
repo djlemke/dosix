@@ -1,0 +1,12 @@
+DOSIX is a 16-bit compatible set of Unix tools that runs on FreeDOS. Eventually, this project will be used to create a simple Unix-like FreeDOS system that can run on low-end hardware, such as old PCs or SBCs.
+
+Goals:
+- 16-bit compatible
+- Fits on one floppy disk with FreeDOS kernel
+- Mostly POSIX compliant
+- Doesn't modify FreeDOS kernel
+
+Why:
+- I have muscle memory for Unix commands
+- I thought it would be neat to build a single-user Unix-like system on top of FreeDOS
+

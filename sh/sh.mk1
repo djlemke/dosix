@@ -1,0 +1,16 @@
+!define BLANK ""
+C:\Users\mrdan\OneDrive\Documents\projects\dosix\sh\main.obj : C:\Users\mrda&
+n\OneDrive\Documents\projects\dosix\sh\main.c .AUTODEPEND
+ @C:
+ cd C:\Users\mrdan\OneDrive\Documents\projects\dosix\sh
+ *wcc main.c -i="C:\WATCOM/h" -w4 -e25 -zq -od -d2 -bt=dos -fo=.obj -ms
+
+C:\Users\mrdan\OneDrive\Documents\projects\dosix\sh\sh.com : C:\Users\mrdan\&
+OneDrive\Documents\projects\dosix\sh\main.obj .AUTODEPEND
+ @C:
+ cd C:\Users\mrdan\OneDrive\Documents\projects\dosix\sh
+ @%write sh.lk1 FIL main.obj
+ @%append sh.lk1 
+ *wlink name sh d all sys dos com op m libf cstart_t op maxe=25 op q op symf&
+ @sh.lk1
+

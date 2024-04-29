@@ -1,0 +1,2 @@
+main.c(21): Warning! W124: Comparison result always 1
+main.c(6): Warning! W303: Parameter 'argv' has been defined, but not referenced
